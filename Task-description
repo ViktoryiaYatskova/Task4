@@ -1,0 +1,59 @@
+1. Сохранить файл как competitors.json и скопировать внутрь json (смотрите ниже)
+2. Распарсить этот json
+3. Отфильтровать данные по "cityName": "Arlington" и roomCount больше 250
+4. Отсортировать данные сначала по starId, затем по state
+5. Вывести полученные результаты на экран в табличном виде чтобы можно было увидеть все данные
+ starId, hotelName, cityName, state, country and roomCount
+
+{
+     "competitors": [{
+         "starId": "12079",
+         "hotelName": "Courtyard Arlington Crystal City Reagan",
+         "cityName": "Arlington",
+         "state": "VA",
+         "country": "US",
+         "roomCount": 272
+     }, {
+         "starId": "10341",
+         "hotelName": "Hilton Crystal City @ Washington Reag",
+         "cityName": "Arlington",
+         "state": "VA",
+         "country": "US",
+         "roomCount": 386
+     }, {
+         "starId": "7627",
+         "hotelName": "Crowne Plaza Old Town Alexandria",
+         "cityName": "Alexandria",
+         "state": "VA",
+         "country": "US",
+         "roomCount": 254
+     }, {
+         "starId": "4729",
+         "hotelName": "Radisson Hotel Reagan National Airport",
+         "cityName": "Arlington",
+         "state": "VA",
+         "country": "US",
+         "roomCount": 249
+     }, {
+         "starId": "4012",
+         "hotelName": "DoubleTree Washington DC Crystal City",
+         "cityName": "Arlington",
+         "state": "VA",
+         "country": "US",
+         "roomCount": 631
+     }, {
+         "starId": "1345",
+         "hotelName": "Sheraton Hotel Crystal City",
+         "cityName": "Arlington",
+         "state": "VA",
+         "country": "US",
+         "roomCount": 217
+     }, {
+         "starId": "1344",
+         "hotelName": "Sheraton Hotel Pentagon City Hotel",
+         "cityName": "Arlington",
+         "state": "VA",
+         "country": "US",
+         "roomCount": 416
+     }]
+}

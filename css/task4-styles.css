@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray;
+}
+table {
+    margin: 10px auto;
+
+    border-radius: 15px;
+    border: #ccfacf 4px solid;
+    border-spacing: 0;
+    background-color: #f1fff4;
+
+    color: #646482;
+
+    font-family: Calibri, sans-serif;
+}
+td, th {
+    border: #e8fae3 1px solid;
+    padding: 1em;
+}
+.sorted {
+    border-color: #ffdee7;
+    background-color: #ffefef;
+}
+.sorted td,
+.sorted th {
+    border: #efe7e4 1px solid;
+    padding: 1em;
+}
